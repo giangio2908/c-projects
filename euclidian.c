@@ -8,10 +8,10 @@ int main() {
   printf("\nGood work!!!\n");
 
 
-  printf("\nImmettere 1° valore:\n1°--> ");
+  printf("\nPut 1° value:\n1°--> ");
   scanf("%u", &n);
 
-  printf("Immettere 2° valore:\n2°--> ");
+  printf("Put 2° value:\n2°--> ");
   scanf("%u", &m);
 
 // per darmi la scritta finale **
@@ -27,7 +27,7 @@ int main() {
   if(n%m == 0){
     q = 1;
     printf("%u = %u x %u + %u \n", n, m, q, r);
-    printf("MCD di (%u,%u) è uguale a: %u\n", n1, m1, m1);
+    printf("GCD di (%u,%u) is equal to: %u\n", n1, m1, m1);
 
     }
       else {
