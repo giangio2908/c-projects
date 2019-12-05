@@ -14,14 +14,14 @@ int main() {
   printf("Put 2° value:\n2°--> ");
   scanf("%u", &m);
 
-// per darmi la scritta finale **
+// save result for the last printf **
   r = 1;
   n1 = n;
   m1 = m;
 
   if(m > n) {
-    n = m1; //se l'utente è stronzo e non capisce inverte
-    m = n1; // la n con la m se m è maggiore di n
+    n = m1; // if m is bigger than n
+    m = n1; // swap the values 
   }
 
   if(n%m == 0){
@@ -34,13 +34,13 @@ int main() {
   while (r != 0) {
 
 
-    r1 = r; //per la stampa dell'ultimo resto **
-    q = n / m;  // per il quoziente
-    r = n % m; // per il resto
+    r1 = r; //save result for the last printf **
+    q = n / m;  // for the quozient
+    r = n % m; // for the remainder
 
-    printf("%u = %u x %u + %u \n", n, m, q, r); //tiene traccia dei calcoli
+    printf("%u = %u x %u + %u \n", n, m, q, r); //track of calculation
 
-    n = m;  //per i passaggi successivi
+    n = m;  //for the following steps
     m = r;
 
     }
