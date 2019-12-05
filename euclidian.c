@@ -45,7 +45,7 @@ int main() {
 
     }
 
-  printf("MCD di (%u,%u) è uguale a: %u\n", n1, m1, r1); //**
+  printf("GCD (%u,%u) is equal to: %u\n", n1, m1, r1); //**
 
   }
 }
