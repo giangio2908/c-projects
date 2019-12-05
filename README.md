@@ -1,2 +1,6 @@
 # c-projects
-My trying for University
+my tring for University
+
+This is my first project in c.
+
+I hope you have fun!
