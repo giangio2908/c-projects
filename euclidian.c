@@ -27,7 +27,7 @@ int main() {
   if(n%m == 0){
     q = 1;
     printf("%u = %u x %u + %u \n", n, m, q, r);
-    printf("GCD di (%u,%u) is equal to: %u\n", n1, m1, m1);
+    printf("GCD of (%u,%u) is equal to: %u\n", n1, m1, m1);
 
     }
       else {
