@@ -37,7 +37,7 @@ int main() {
     q = n / m;  // for the quozient
     r = n % m; // for the remainder
 
-    printf("%u = %u x %u + %u \n", n, m, q, r); //track of calculation
+    printf("\n%u = %u x %u + %u \n", n, m, q, r); //track of calculation
 
     n = m;  //for the following steps
     m = r;
